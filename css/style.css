@@ -1,0 +1,95 @@
+/* *************** */
+/* Root Settings */
+/* *************** */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	background-color: #78cccb;
+	font-family: "Montserrat", sans-serif;
+	padding: 10px 20px;
+}
+
+/* *************** */
+/* Utility Classes */
+/* *************** */
+
+.grid {
+	display: grid;
+}
+
+.flex {
+	display: flex;
+}
+
+/* *************** */
+/* Heading */
+/* *************** */
+
+.esketch__heading__title {
+	font-family: "Lobster", cursive;
+	font-size: 70px;
+	color: #ffed66;
+	text-align: center;
+	margin: 0;
+	line-height: 1;
+	padding-top: 34px;
+	margin-bottom: 5rem;
+	background-color: #ff5e5b;
+}
+
+/* *************** */
+/* Main Box */
+/* *************** */
+
+.esketch__mainBox {
+	margin: 0 20rem;
+}
+
+/* *************** */
+/* Main Box Range Class*/
+/* *************** */
+
+.esketch__range {
+	justify-content: space-between;
+	align-items: center;
+}
+
+.esketch__range__number {
+	font-size: 1.8rem;
+	font-weight: 500;
+}
+
+.show-grid-lines {
+	font-size: 1.7rem;
+	font-weight: 500;
+}
+
+.esketch__range__box {
+	margin-left: 46px;
+}
+
+/* *************** */
+/* Main Box Canvas Class*/
+/* *************** */
+
+.esketch__canvas {
+	grid-template-columns: repeat(64, 1fr);
+	grid-template-rows: repeat(64, 1fr);
+	height: 450px;
+	width: 900px;
+	background-color: #d8d8d8;
+	margin-left: 40px;
+}
+
+.pixel {
+	border: 1px solid #000;
+}
