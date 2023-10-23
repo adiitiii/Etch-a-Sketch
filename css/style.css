@@ -88,8 +88,24 @@ body {
 	width: 900px;
 	background-color: #d8d8d8;
 	margin-left: 40px;
+	margin-bottom: 5rem;
 }
 
 .pixel {
 	border: 1px solid #000;
+	background-color: #ffed66;
+}
+
+/* *************** */
+/*ADDITIONALS*/
+/* *************** */
+
+.esketch__additionals {
+	justify-content: space-between;
+	background-color: #ff5e5b;
+}
+
+.esketch__modes__head,
+.esketch__erase__head {
+	font-size: 3rem;
 }
