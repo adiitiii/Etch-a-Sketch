@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Modes</title>
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@400;700&display=swap"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap"
+			rel="stylesheet"
+		/>
+		<link href="css/style.css" rel="stylesheet" />
+	</head>
+	<body>
+		<div class="esketch__heading">
+			<h1 class="esketch__heading__title">Etch-a-Sketch</h1>
+		</div>
+		<div class="container-box flex">
+			<!-- Modes Block -->
+			<div class="esketch-modes-controller">
+				<div class="esketch-modes">
+					<h1 class="esketch-modes-heading">Modes</h1>
+					<div class="esketch-mode-color">
+						<h3 class="esketch-mode-color-heading">Color mode</h3>
+						<div class="esketch-mode-color-palette-parent flex">
+							<input
+								class="esketch-mode-color-palette"
+								type="color"
+							/>
+							<p class="esketch-mode-color-palette-hexcode">
+								#000000
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="esketch-mode-rainbow">
+					<h3 class="esketch-mode-rainbow-heading">
+						Rainbow mode 🌈
+					</h3>
+				</div>
+				<div class="esketch-clear">
+					<h1 class="esketch-clear-heading">Erase</h1>
+					<div class="esketch-clear-erasor-parent flex">
+						<div class="esketch-all-clear">
+							<img
+								src="img/clear.svg"
+								alt="clear"
+								class="esketch-all-clear-img"
+							/>
+							<h3 class="esketch-all-clear-heading">Clear All</h3>
+						</div>
+						<div class="esketch-erasor">
+							<img
+								src="img/erasor.svg"
+								alt="erasor"
+								class="esketch-erasor-img"
+							/>
+							<h3 class="esketch-erasor-heading">Erasor</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="esketch-canvas-controller">
+				<div class="esketch__range flex">
+					<div class="esketch__range__box">
+						<div class="esketch__range__number">16 x 16</div>
+						<input
+							type="range"
+							class="esketch__range__slider"
+							min="1"
+							max="64"
+							value="16"
+						/>
+					</div>
+					<div class="show-grid-lines">
+						Show Grid lines:
+						<input type="checkbox" id="gridCheckbox" />
+					</div>
+				</div>
+				<div class="esketch__canvas grid" id="canvas"></div>
+			</div>
+		</div>
+		<script src="app/script-2.js"></script>
+	</body>
+</html>

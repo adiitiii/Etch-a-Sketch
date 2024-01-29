@@ -1,0 +1,211 @@
+/* *************** */
+/* Root Settings */
+/* *************** */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	background-color: #78cccb;
+	font-family: "Montserrat", sans-serif;
+	padding: 10px 0 10px 10px;
+}
+
+/* *************** */
+/* Utility Classes */
+/* *************** */
+
+.grid {
+	display: grid;
+}
+
+.flex {
+	display: flex;
+}
+
+/* *************** */
+/* Heading */
+/* *************** */
+
+.esketch__heading__title {
+	font-family: "Lobster", cursive;
+	font-size: 70px;
+	color: #ffed66;
+	text-align: center;
+	margin: 0;
+	line-height: 1;
+	padding-top: 34px;
+	/* margin-bottom: 5rem; */
+	background-color: #ff5e5b;
+}
+
+/* *************** */
+/* Main Box */
+/* *************** */
+
+.esketch__mainBox {
+	margin: 0 20rem;
+}
+
+/* *************** */
+/* Main Box Range Class*/
+/* *************** */
+
+.esketch__range {
+	justify-content: space-between;
+	align-items: center;
+}
+
+.esketch__range__number {
+	font-size: 1.8rem;
+	font-weight: 500;
+}
+
+.esketch__range__slider {
+	cursor: pointer;
+}
+
+.show-grid-lines {
+	font-size: 1.7rem;
+	font-weight: 500;
+	margin-right: 24rem;
+}
+
+/* .grid-square {
+	border: 1px solid #000;
+} */
+
+.esketch__range__box {
+	margin-left: 46px;
+}
+
+/* *************** */
+/* Main Box Canvas Class*/
+/* *************** */
+
+.esketch__canvas {
+	grid-template-columns: repeat(64, 1fr);
+	grid-template-rows: repeat(64, 1fr);
+	height: 450px;
+	width: 900px;
+	background-color: #d8d8d8;
+	margin-left: 40px;
+	margin-bottom: 5rem;
+}
+
+/* *************** */
+/*ADDITIONALS*/
+/* *************** */
+
+.esketch-modes-controller {
+	background-color: #ff5e5b;
+	width: 20%;
+}
+
+.esketch-modes {
+	margin-top: 3rem;
+}
+
+.esketch-modes-heading {
+	font-size: 4rem;
+	text-align: center;
+	color: #ffed66;
+	font-family: "Lobster", cursive;
+	margin-bottom: 1.5rem;
+}
+
+.esketch-mode-color {
+	margin-left: 3rem;
+	margin-bottom: 3rem;
+}
+
+.esketch-mode-color:hover {
+}
+
+.esketch-mode-color-heading {
+	font-size: 2rem;
+	font-family: "Nunito", sans-serif;
+	font-weight: 900;
+	margin-bottom: 1.9rem;
+}
+
+.esketch-mode-color-palette-parent {
+	align-items: center;
+}
+
+.esketch-mode-color-palette {
+	border: 0;
+	cursor: pointer;
+	padding: 0;
+	height: 30px;
+	width: 30px;
+}
+
+.esketch-mode-color-palette-hexcode {
+	font-size: 1.8rem;
+	font-weight: 800;
+	margin-left: 2rem;
+}
+
+.esketch-mode-rainbow {
+	margin-left: 3rem;
+}
+
+.esketch-mode-rainbow-heading {
+	font-size: 2rem;
+	font-family: "Nunito", sans-serif;
+	font-weight: 900;
+	margin-bottom: 1.9rem;
+	cursor: pointer;
+}
+
+.esketch-clear {
+	margin-top: 4rem;
+}
+
+.esketch-clear-heading {
+	font-size: 4rem;
+	text-align: center;
+	color: #ffed66;
+	font-family: "Lobster", cursive;
+	margin-bottom: 1.5rem;
+}
+
+.esketch-clear-erasor-parent {
+	justify-content: space-around;
+}
+
+.esketch-all-clear,
+.esketch-erasor {
+	font-size: 2rem;
+	font-family: "Nunito", sans-serif;
+	font-weight: 900;
+	margin-bottom: 1.9rem;
+	margin-left: 1rem;
+	cursor: pointer;
+}
+
+.esketch-all-clear-img {
+	margin-left: 3rem;
+}
+
+.esketch-erasor-heading {
+	margin-right: 2rem;
+}
+
+.esketch-canvas-controller {
+	width: 80%;
+	margin-top: 6rem;
+	margin-left: 3rem;
+}
+
+.show-grid-lines2 div {
+	border: 1px solid #000;
+}
