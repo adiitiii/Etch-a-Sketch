@@ -120,6 +120,7 @@ erasorModeBox.addEventListener("click", function () {
 
 clearModeBox.addEventListener("click", function () {
 	clearAllGrid();
+	isMouseDown = true;
 	createNewGrid(currentGridValue);
 });
 
