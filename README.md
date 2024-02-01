@@ -1,1 +1,1 @@
-Live version of [esketch] (https://65bbc3e35fab8b295539a4e1--musical-twilight-5c5c00.netlify.app/).
+Start sketching here [etch-a-sketch](https://65bbc3e35fab8b295539a4e1--musical-twilight-5c5c00.netlify.app/).
